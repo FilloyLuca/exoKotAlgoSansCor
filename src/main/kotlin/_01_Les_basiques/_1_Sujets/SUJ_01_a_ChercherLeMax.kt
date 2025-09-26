@@ -17,14 +17,18 @@ import _10_Demos_et_tests.testerEnLot
  */
 fun firstMax(list: List<Int>): List<Int> {
     var iMax = 0
-
+    for(i in list.indices){
+        if(list[i] > list[iMax]){
+            iMax = i
+        }
+    }
     return  listOf(list[iMax], iMax)
 }
 
 /* -------------------
     Données de test
    --------------------*/
-//
+
 val dataTest01_01a = DataTestChercherLeMax(::firstMax, listOf<Int>(5, -10, 7, -20, 3, 2, 5, 7, 2, 7), listOf(7, 2))
 val dataTest02_01a = DataTestChercherLeMax(::firstMax, listOf<Int>(-5, -10, -2, -100, -2, -3), listOf(-2, 2))
 val listDataTests_01a = listOf(dataTest01_01a, dataTest02_01a)
@@ -37,6 +41,7 @@ val listDataTests_01a = listOf(dataTest01_01a, dataTest02_01a)
 fun main() {
     testerEnLot(listDataTests_01a)
     demoEnLot(listDataTests_01a)
+    println(firstMax(listOf(5, -10, 7, -20, 3, 2, 5, 7, 2, 7)))
 }
 
 
