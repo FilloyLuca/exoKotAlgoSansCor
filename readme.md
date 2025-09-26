@@ -23,4 +23,3 @@ Chaque exercice comporte sa fonction `main()`, il est ainsi possible d'exécuter
 
 ![execution_fun_main.png](readme_img/execution_fun_main.png)
 # exoKotAlgoSansCor
-# exoKotAlgoSansCor
