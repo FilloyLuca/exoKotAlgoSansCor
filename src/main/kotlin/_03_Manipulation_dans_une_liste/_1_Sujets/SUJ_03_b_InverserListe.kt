@@ -16,11 +16,20 @@ import _10_Demos_et_tests.testerEnLot
  */
 fun inverserListe(liste: List<Int>): MutableList<Int> {
     val copieListe = liste.toMutableList()
-
-    // A COMPLETER ICI
-
+    var iDeb = 0
+    var iFin =copieListe.lastIndex
+    while(iDeb != iFin){
+        val temp = copieListe[iDeb]
+        copieListe[iDeb] = copieListe[iFin]
+        copieListe[iFin] = temp
+        iDeb ++
+        iFin --
+    }
     return copieListe
 }
+
+
+
 
 /* -------------------
     Données de test
