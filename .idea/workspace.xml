@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6efda9ca-f5d5-4850-96b0-e2862bc62994" name="Changes" comment="fun supprimerDoublons()">
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/_03_Manipulation_dans_une_liste/_1_Sujets/SUJ_03_b_InverserListe.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/_03_Manipulation_dans_une_liste/_1_Sujets/SUJ_03_b_InverserListe.kt" afterDir="false" />
+    <list default="true" id="6efda9ca-f5d5-4850-96b0-e2862bc62994" name="Changes" comment="fun inverserListe()">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/_03_Manipulation_dans_une_liste/_1_Sujets/SUJ_03_c_ZeroGaucheUnDroit.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/_03_Manipulation_dans_une_liste/_1_Sujets/SUJ_03_c_ZeroGaucheUnDroit.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +78,7 @@
     "Kotlin.SUJ_02_a_RechercheDichotomiqueKt.executor": "Run",
     "Kotlin.SUJ_03_a_SupprimerDoublonsKt.executor": "Run",
     "Kotlin.SUJ_03_b_InverserListeKt.executor": "Run",
+    "Kotlin.SUJ_03_c_ZeroGaucheUnDroitKt.executor": "Run",
     "Kotlin.SUJ_04_e_TrouverGeneKt.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -111,7 +113,7 @@
       <recent name="D:\HOME\ljules\Documents\01-TRAVAIL\02-ACTIVITES\60-SIO\01-DEV\02-Kotlin\07-EntrainementAlgo\algo\src\main\kotlin\_04_Autres\_1_Sujets" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.SUJ_03_b_InverserListeKt">
+  <component name="RunManager" selected="Kotlin.SUJ_03_c_ZeroGaucheUnDroitKt (1)">
     <configuration name="SUJ_01_a_ChercherLeMaxKt" type="JetRunConfigurationType" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_01_Les_basiques._1_Sujets.SUJ_01_a_ChercherLeMaxKt" />
       <module name="algo" />
@@ -194,6 +196,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SUJ_03_c_ZeroGaucheUnDroitKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_03_Manipulation_dans_une_liste._2_Corrections.SUJ_03_c_ZeroGaucheUnDroitKt" />
+      <module name="algo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SUJ_03_c_ZeroGaucheUnDroitKt" type="JetRunConfigurationType" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_03_Manipulation_dans_une_liste._1_Sujets.SUJ_03_c_ZeroGaucheUnDroitKt" />
       <module name="algo" />
@@ -264,7 +273,13 @@
       <item itemvalue="Kotlin.SUJ_04_c_ChiffrerCesarKt" />
       <item itemvalue="Kotlin.SUJ_04_d_EstPalindromeKt" />
       <item itemvalue="Kotlin.SUJ_04_e_TrouverGeneKt" />
+      <item itemvalue="Kotlin.SUJ_03_c_ZeroGaucheUnDroitKt (1)" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.SUJ_03_c_ZeroGaucheUnDroitKt (1)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -302,7 +317,7 @@
       <workItem from="1758889406713" duration="5400000" />
       <workItem from="1759126880093" duration="5699000" />
       <workItem from="1759134256190" duration="2000" />
-      <workItem from="1759136705452" duration="2243000" />
+      <workItem from="1759136705452" duration="2559000" />
     </task>
     <task id="LOCAL-00001" summary="Debut">
       <option name="closed" value="true" />
@@ -368,7 +383,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759138591472</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fun inverserListe()">
+      <option name="closed" value="true" />
+      <created>1759139157573</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1759139157573</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -397,6 +420,7 @@
     <MESSAGE value="fun triParSelection()" />
     <MESSAGE value="fun ()" />
     <MESSAGE value="fun supprimerDoublons()" />
-    <option name="LAST_COMMIT_MESSAGE" value="fun supprimerDoublons()" />
+    <MESSAGE value="fun inverserListe()" />
+    <option name="LAST_COMMIT_MESSAGE" value="fun inverserListe()" />
   </component>
 </project>
