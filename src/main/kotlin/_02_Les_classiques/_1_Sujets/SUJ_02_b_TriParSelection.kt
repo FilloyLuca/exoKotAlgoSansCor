@@ -21,8 +21,19 @@ fun triParSelection(liste: List<Int>): MutableList<Int> {
     val listeCopie = liste.toMutableList()
 
     // Algorithme de tri :
-    // A COMPLETER ICI
-
+    for (i in 0..listeCopie.lastIndex - 1) {
+        // Boucle de sélection de la valeur minimale dans les valeurs non classées :
+        var jMini = i
+        for (j in (i + 1)..liste.lastIndex) {
+            if (listeCopie[j] < listeCopie[jMini]) jMini = j
+        }
+        // Permutation si la valeur mini est située dans les valeurs non classées :
+        if (jMini != i) {
+            val temp = listeCopie[i]
+            listeCopie[i] = listeCopie[jMini]
+            listeCopie[jMini] = temp
+        }
+    }
     return listeCopie
 }
 
