@@ -18,7 +18,6 @@ import _10_Demos_et_tests.testerEnLot
 
 fun mapDesOccurrences(liste: List<Int>): Map<Int, Int> {
     val resultat = mutableMapOf<Int, Int>()
-
     // A COMPLETER ICI
 
     return resultat
