@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6efda9ca-f5d5-4850-96b0-e2862bc62994" name="Changes" comment="Debut">
+    <list default="true" id="6efda9ca-f5d5-4850-96b0-e2862bc62994" name="Changes" comment="fun firstMax() fait">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/_01_Les_basiques/_1_Sujets/SUJ_01_a_ChercherLeMax.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/_01_Les_basiques/_1_Sujets/SUJ_01_a_ChercherLeMax.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/_01_Les_basiques/_1_Sujets/SUJ_01_b_TrouverValeurPremier.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/_01_Les_basiques/_1_Sujets/SUJ_01_b_TrouverValeurPremier.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/_01_Les_basiques/_1_Sujets/SUJ_01_c_TrouverValeurDernier.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/_01_Les_basiques/_1_Sujets/SUJ_01_c_TrouverValeurDernier.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,12 +43,12 @@
     &quot;assignee&quot;: &quot;ljules&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/FilloyLuca/exoKotAlgoSansCor.git",
-    "accountId": "8e9ef788-5bfd-4b93-991b-04829ce0656c"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/FilloyLuca/exoKotAlgoSansCor.git&quot;,
+    &quot;accountId&quot;: &quot;8e9ef788-5bfd-4b93-991b-04829ce0656c&quot;
   }
-}]]></component>
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -59,43 +61,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Kotlin.COR_01_a_ChercherLeMaxKt.executor": "Run",
-    "Kotlin.COR_01_b_TrouverValeurPremierKt.executor": "Run",
-    "Kotlin.COR_01_c_TrouverValeurDernierKt.executor": "Run",
-    "Kotlin.COR_01_d_NombreOccurrencesKt.executor": "Run",
-    "Kotlin.COR_01_e_MoyennePondereeKt.executor": "Run",
-    "Kotlin.COR_02_b_TriParSelectionKt.executor": "Run",
-    "Kotlin.COR_03_a_SupprimerDoublonsKt.executor": "Run",
-    "Kotlin.COR_03_b_InverserListeKt.executor": "Run",
-    "Kotlin.COR_04_b_AlgoGlouton_RenduMonnaieKt.executor": "Run",
-    "Kotlin.SUJ_01_a_ChercherLeMaxKt.executor": "Run",
-    "Kotlin.SUJ_01_b_TrouverValeurPremierKt.executor": "Run",
-    "Kotlin.SUJ_01_c_TrouverValeurDernierKt.executor": "Run",
-    "Kotlin.SUJ_01_d_NombreOccurrencesKt.executor": "Run",
-    "Kotlin.SUJ_04_e_TrouverGeneKt.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/media/luca/Disque-Luca/BTS-SIO/Annee2/Cours/Slam/Kotlin/exoKotAlgoSansCor",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Kotlin.COR_01_a_ChercherLeMaxKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.COR_01_b_TrouverValeurPremierKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.COR_01_c_TrouverValeurDernierKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.COR_01_d_NombreOccurrencesKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.COR_01_e_MoyennePondereeKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.COR_02_b_TriParSelectionKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.COR_03_a_SupprimerDoublonsKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.COR_03_b_InverserListeKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.COR_04_b_AlgoGlouton_RenduMonnaieKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.SUJ_01_a_ChercherLeMaxKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.SUJ_01_b_TrouverValeurPremierKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.SUJ_01_c_TrouverValeurDernierKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.SUJ_01_d_NombreOccurrencesKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.SUJ_04_e_TrouverGeneKt.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/media/luca/Disque-Luca/BTS-SIO/Annee2/Cours/Slam/Kotlin/exoKotAlgoSansCor&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\HOME\ljules\Documents\01-TRAVAIL\02-ACTIVITES\60-SIO\01-DEV\02-Kotlin\07-EntrainementAlgo\algo\src\main\kotlin\_04_Autres\_1_Sujets" />
@@ -108,7 +110,7 @@
       <recent name="D:\HOME\ljules\Documents\01-TRAVAIL\02-ACTIVITES\60-SIO\01-DEV\02-Kotlin\07-EntrainementAlgo\algo\src\main\kotlin\_04_Autres\_1_Sujets" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.SUJ_01_a_ChercherLeMaxKt">
+  <component name="RunManager" selected="Kotlin.SUJ_01_c_TrouverValeurDernierKt">
     <configuration name="SUJ_01_a_ChercherLeMaxKt" type="JetRunConfigurationType" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_01_Les_basiques._1_Sujets.SUJ_01_a_ChercherLeMaxKt" />
       <module name="algo" />
@@ -296,7 +298,8 @@
       <workItem from="1758446925673" duration="25000" />
       <workItem from="1758447048072" duration="416000" />
       <workItem from="1758889063539" duration="326000" />
-      <workItem from="1758889406713" duration="4853000" />
+      <workItem from="1758889406713" duration="5400000" />
+      <workItem from="1759126880093" duration="3034000" />
     </task>
     <task id="LOCAL-00001" summary="Debut">
       <option name="closed" value="true" />
@@ -306,7 +309,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758898620277</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fun firstMax() fait">
+      <option name="closed" value="true" />
+      <created>1758899201822</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1758899201822</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,6 +338,7 @@
     <MESSAGE value="SUJ_01_a_ChercherLeMax." />
     <MESSAGE value="Publication sans correction pour les étudiants" />
     <MESSAGE value="Debut" />
-    <option name="LAST_COMMIT_MESSAGE" value="Debut" />
+    <MESSAGE value="fun firstMax() fait" />
+    <option name="LAST_COMMIT_MESSAGE" value="fun firstMax() fait" />
   </component>
 </project>

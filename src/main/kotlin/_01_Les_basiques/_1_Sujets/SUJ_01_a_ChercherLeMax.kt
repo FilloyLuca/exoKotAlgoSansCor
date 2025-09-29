@@ -41,7 +41,6 @@ val listDataTests_01a = listOf(dataTest01_01a, dataTest02_01a)
 fun main() {
     testerEnLot(listDataTests_01a)
     demoEnLot(listDataTests_01a)
-    println(firstMax(listOf(5, -10, 7, -20, 3, 2, 5, 7, 2, 7)))
 }
 
 

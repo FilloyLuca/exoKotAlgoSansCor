@@ -18,9 +18,13 @@ import _10_Demos_et_tests.testerEnLot
  * @return Indice de la dernière occurrence de la valeur cherchée.
  */
 fun findLastValue(value: Number, list: List<Number>): Int {
-    var iVal = -1
-    // A COMPLETER ICI
-    return iVal
+//    var iVal = -1
+//    // A COMPLETER ICI
+//    return iVal
+    for (i in list.indices.reversed()) {
+        if (list[i] == value) return i
+    }
+    return -1
 }
 
 
