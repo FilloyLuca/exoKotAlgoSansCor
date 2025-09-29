@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6efda9ca-f5d5-4850-96b0-e2862bc62994" name="Changes" comment="Implement `moyennePonderee` function to calculate the weighted average.">
+    <list default="true" id="6efda9ca-f5d5-4850-96b0-e2862bc62994" name="Changes" comment="fun triParSelection()">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/_02_Les_classiques/_1_Sujets/SUJ_02_a_RechercheDichotomique.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/_02_Les_classiques/_1_Sujets/SUJ_02_a_RechercheDichotomique.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/_03_Manipulation_dans_une_liste/_1_Sujets/SUJ_03_a_SupprimerDoublons.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/_03_Manipulation_dans_une_liste/_1_Sujets/SUJ_03_a_SupprimerDoublons.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +76,7 @@
     "Kotlin.SUJ_01_d_NombreOccurrencesKt.executor": "Run",
     "Kotlin.SUJ_01_e_MoyennePondereeKt.executor": "Run",
     "Kotlin.SUJ_02_a_RechercheDichotomiqueKt.executor": "Run",
+    "Kotlin.SUJ_03_a_SupprimerDoublonsKt.executor": "Run",
     "Kotlin.SUJ_04_e_TrouverGeneKt.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -110,7 +111,7 @@
       <recent name="D:\HOME\ljules\Documents\01-TRAVAIL\02-ACTIVITES\60-SIO\01-DEV\02-Kotlin\07-EntrainementAlgo\algo\src\main\kotlin\_04_Autres\_1_Sujets" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.SUJ_02_a_RechercheDichotomiqueKt">
+  <component name="RunManager" selected="Kotlin.SUJ_03_a_SupprimerDoublonsKt">
     <configuration name="SUJ_01_a_ChercherLeMaxKt" type="JetRunConfigurationType" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_01_Les_basiques._1_Sujets.SUJ_01_a_ChercherLeMaxKt" />
       <module name="algo" />
@@ -299,7 +300,9 @@
       <workItem from="1758447048072" duration="416000" />
       <workItem from="1758889063539" duration="326000" />
       <workItem from="1758889406713" duration="5400000" />
-      <workItem from="1759126880093" duration="5360000" />
+      <workItem from="1759126880093" duration="5699000" />
+      <workItem from="1759134256190" duration="2000" />
+      <workItem from="1759136705452" duration="1726000" />
     </task>
     <task id="LOCAL-00001" summary="Debut">
       <option name="closed" value="true" />
@@ -341,7 +344,23 @@
       <option name="project" value="LOCAL" />
       <updated>1759132097967</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary=" fun rechercheDichotomique()">
+      <option name="closed" value="true" />
+      <created>1759132378594</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1759132378594</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fun triParSelection()">
+      <option name="closed" value="true" />
+      <created>1759132439464</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1759132439464</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -366,6 +385,8 @@
     <MESSAGE value="Implement functions to find first and last occurrence of a value in a list." />
     <MESSAGE value="Complete `nombreOccurrences` function to count occurrences of a target value in a list." />
     <MESSAGE value="Implement `moyennePonderee` function to calculate the weighted average." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement `moyennePonderee` function to calculate the weighted average." />
+    <MESSAGE value=" fun rechercheDichotomique()" />
+    <MESSAGE value="fun triParSelection()" />
+    <option name="LAST_COMMIT_MESSAGE" value="fun triParSelection()" />
   </component>
 </project>
