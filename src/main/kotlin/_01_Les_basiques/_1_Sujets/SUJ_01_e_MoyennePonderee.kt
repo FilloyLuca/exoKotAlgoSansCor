@@ -18,7 +18,12 @@ import _10_Demos_et_tests.testerEnLot
  */
 fun moyennePonderee(listeCoefVal: List<List<Number>>): Double {
     var moyenne = 0.0
-    // A COMPLETER ICI
+    var sommeCoef = 0.0
+    for (coefVal in listeCoefVal) {
+        sommeCoef += coefVal[0].toDouble()
+        moyenne += (coefVal[0].toDouble() * coefVal[1].toDouble())
+    }
+    moyenne = moyenne / sommeCoef
     return moyenne
 }
 
@@ -34,6 +39,7 @@ val listDataTests_01e = listOf(dataTest01_01e , dataTest02_01e)
 /* -------------------------------
      Exécution des tests & démos
    --------------------------------*/
+//https://www.marmiton.org/recettes/recette_sauce-blanche-pour-kebab_81366.aspx
 
 fun main() {
     testerEnLot(listDataTests_01e)
